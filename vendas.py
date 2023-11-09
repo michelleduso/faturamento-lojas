@@ -14,7 +14,11 @@ print(faturamento)
 quantidade = tabela_vendas[['ID Loja', 'Quantidade']].groupby('ID Loja').sum()
 print(quantidade)
 
+print('-' * 50)
 # ticket médio por produto em cada loja
+ticket_medio = (faturamento['Valor Final'] / quantidade['Quantidade']).to_frame()
+print(ticket_medio)
+
 
 # enviar um email com o relatório
 
