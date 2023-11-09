@@ -4,10 +4,15 @@ import pandas as pd
 tabela_vendas = pd.read_excel('Vendas.xlsx')
 
 # visualizar a base de dados
+pd.set_option('display.max_columns', None)
 
 # faturamento por loja
+faturamento = tabela_vendas[['ID Loja', 'Valor Final']].groupby('ID Loja').sum()
+print(faturamento)
 
 # quantidade de produtos vendidos por loja
+quantidade = tabela_vendas[['ID Loja', 'Quantidade']].groupby('ID Loja').sum()
+print(quantidade)
 
 # ticket médio por produto em cada loja
 
