@@ -28,6 +28,10 @@ pip install pandas
 pip install openpyxl
 ```
 
+```bash
+pip install pywin32
+```
+
 - Você precisa configurar sua caixa de e-mail no Outlook em seu computador para poder receber o relatório por e-mail.
 
 
