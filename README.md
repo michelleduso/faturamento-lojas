@@ -1,12 +1,12 @@
 <h1 align="center">
     <a href="https://www.python.org/">🔗 Python</a>
 </h1>
-<p align="center">🚀 Automação do Relatório de Vendas</p>
+<p align="center">🚀 Automação do Relatório de Vendas por Loja</p>
 
 #
 
 ## Descrição do Projeto: 
-O Desenvolvimento deste projeto é sobre um Relatório de Vendas da uma loja, onde foi criado uma automação para realizar o calculo do faturamento, quantidade de ticket e ser enviado automáticamento via e-mail.
+O Desenvolvimento deste projeto é sobre um Relatório de Vendas por Lojas, onde foi criado uma automação para realizar o calculo do faturamento, quantidade de ticket e ser enviado automáticamento via e-mail.
 
 ##
 
