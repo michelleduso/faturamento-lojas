@@ -15,7 +15,7 @@ O desenvolvimento deste projeto é um Relatório de Vendas por Lojas, no qual um
 ### Pré-requisitos:
 Para receber o relatório por e-mail, é necessário configurar sua caixa de correio no Outlook em seu computador.
 
-#### Instalar ás bibliotecas abaixo e configurar seu e-mail no Outlook:
+#### Instalar ás bibliotecas abaixo.
 
  - pandas -  É uma biblioteca open-source que force ferramentas para análise e manipulação de dados.
  - openpyxl -  Server para ler arquivos em excel.
